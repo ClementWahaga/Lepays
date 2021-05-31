@@ -1,3 +1,12 @@
+/*
+Theme nmae: lepays
+Theme URI: https://wordpress.org/themes/lepays
+Author: Wahaga Clement
+
+
+*/
+
+
 *{
     max-width: 1440px;
 }
@@ -18,7 +27,7 @@ nav {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 190px;
 }
 
@@ -42,4 +51,8 @@ i {
 
 i:hover {
     font-size: 200px;
+}
+
+.footer{
+ border:2px #fff solid;
 }
