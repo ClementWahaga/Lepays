@@ -1,0 +1,45 @@
+*{
+    max-width: 1440px;
+}
+
+body {
+    background-color: #333;
+    font-family: 'Pattaya', sans-serif;
+ 
+}
+
+nav {
+    height: 200px;
+    /* border: #fff 2px solid;*/
+    color: #fff;
+    text-align: center;
+    font-size: 146px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 190px;
+}
+
+div {
+    width: 230px;
+    height: 230px;
+    border-radius: 115px;
+    background-color: #fff;
+    justify-items: center;
+    text-align: center;
+}
+
+div:hover {
+    background-color: #333;
+}
+
+i {
+    font-size: 115px;
+    margin-top: 45px;
+}
+
+i:hover {
+    font-size: 200px;
+}
