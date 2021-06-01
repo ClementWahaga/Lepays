@@ -21,6 +21,9 @@ nav {
 h2{
     color:#333
 }
+p{
+    text-align: center;
+}
 div {
     width: 230px;
     height: 230px;
@@ -34,20 +37,31 @@ div {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 190px;
+    border:2px solid black
 }
 
-.contain{
+/*.contain{
     
     
     height:auto;
     border: none;
-    height: 400px;
+    height: 200px;
     color: #333;
     background-color: #fff;
     max-width: 1000px;
     font-size:12px;
     margin-top : 15px;
     margin-left: 45%;
+}*/
+.contain{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    height:auto;
+    border: none;
+    
+    
+
+
 }
 
 .contain :nth-last-of-type(1){
@@ -81,4 +95,5 @@ footer {
     border: 1px solid black;
     border-radius: 5px 3px;
     height: auto;
+    margin-bottom: 200px;
 }
