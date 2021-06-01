@@ -6,7 +6,7 @@ Author: Wahaga Clement
 
 
 body {
-    background-color: #333;
+    background-color: #fff;
     font-family: 'Pattaya', sans-serif;
     max-width: auto;
  
@@ -14,18 +14,18 @@ body {
 
 nav {
     height: 200px;
-    color: #fff;
+    color: #333;
     text-align: center;
     font-size: 146px;
 }
 h2{
-    color:#FF9
+    color:#333
 }
 div {
     width: 230px;
     height: 230px;
     border-radius: 115px;
-    background-color: #fff;
+   /* background-color: #333;*/
     justify-items: center;
     text-align: center;
 }
@@ -37,19 +37,25 @@ div {
 }
 
 .contain{
-    grid-column-start: 1;
-    grid-column-end: 3;
-
+    
+    
+    height:auto;
+    border: none;
     height: 400px;
-    color: #fff;
-    background-color: #333;
+    color: #333;
+    background-color: #fff;
     max-width: 1000px;
-    font-size:12px
+    font-size:12px;
+    margin-top : 15px;
+    margin-left: 45%;
 }
 
+.contain :nth-last-of-type(1){
+    grid-column: 3/4
+}
 
 div:hover {
-    background-color: #333;
+    background-color: #fff;
 }
 
 i {
@@ -62,10 +68,17 @@ i:hover {
 }
 
 footer {
-    border: #fff 2px solid;
+    border: #333 2px solid;
     border-radius: 5px 5px;
     max-width: auto;
     height: 194px;
-    color: #FF9;
+    color: #333;
     text-align: center;
+}
+.aside{
+    background: linear-gradient(#333,#fff);
+    margin-left:85%;
+    border: 1px solid black;
+    border-radius: 5px 3px;
+    height: auto;
 }

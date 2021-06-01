@@ -8,6 +8,6 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident fuga cumque quos minus eaque in, enim rem consectetur quidem adipisci cupiditate earum nostrum labore ipsam cum, alias non vel blandit</p>
     </div>
    
-
+</div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
