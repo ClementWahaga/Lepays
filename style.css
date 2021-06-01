@@ -1,36 +1,26 @@
 /*
-Theme nmae: lepays
+Theme name: lepays
 Theme URI: https://wordpress.org/themes/lepays
 Author: Wahaga Clement
-
-
 */
 
-
-*{
-    max-width: 1440px;
-}
 
 body {
     background-color: #333;
     font-family: 'Pattaya', sans-serif;
+    max-width: auto;
  
 }
 
 nav {
     height: 200px;
-    /* border: #fff 2px solid;*/
     color: #fff;
     text-align: center;
     font-size: 146px;
 }
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 190px;
+h2{
+    color:#FF9
 }
-
 div {
     width: 230px;
     height: 230px;
@@ -39,6 +29,24 @@ div {
     justify-items: center;
     text-align: center;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 190px;
+}
+
+.contain{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    height: 400px;
+    color: #fff;
+    background-color: #333;
+    max-width: 1000px;
+    font-size:12px
+}
+
 
 div:hover {
     background-color: #333;
@@ -53,6 +61,11 @@ i:hover {
     font-size: 200px;
 }
 
-.footer{
- border:2px #fff solid;
+footer {
+    border: #fff 2px solid;
+    border-radius: 5px 5px;
+    max-width: auto;
+    height: 194px;
+    color: #FF9;
+    text-align: center;
 }

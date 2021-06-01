@@ -9,10 +9,12 @@
 <?php endwhile; endif; ?>
 
 <div class="contain">
-    <div >
+    
+    <h2>à la une <h2>
         
-        
-    </div>
+    <span>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, nihil incidunt nobis tenetur aperiam adipisci temporibus. Sequi iure veritatis distinctio aliquam, sint excepturi quibusdam assumenda, id officia laborum autem minus!
+    </span>
     
 
 
