@@ -22,17 +22,15 @@
 
 <body <?php body_class(); ?>>
 
-    <nav>
-            le pays
-    </nav>
-    <div class="container">
-        <div><i class="fas fa-running"></i>Sport</div>
-        <div><i class="far fa-newspaper"><a href="http://localhost/lepays/category/actu/"></a></i>Actu</div>
-        <div><i class="fas fa-car-crash"><a href="http://localhost/lepays/2021/06/01/attaque-de-requin-mortel/"></a></i>Faits divers</div>
-        <div><i class="fas fa-handshake"></i>Politique</div>
+<div class="header">
+    <header class="admin-bar">
+        <a href="<?php echo home_url( '/' ); ?>">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
+        </a>
         
-    </div>
-    
+    </header>
+    <?php wp_nav_menu( array( 'theme_location' => 'mymenu' ) );?>
+</div>
         
     
     <?php wp_body_open(); ?>
