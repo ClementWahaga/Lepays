@@ -9,12 +9,13 @@ body {
     background-color: #fff;
     font-family: 'Pattaya', sans-serif;
     max-width: auto;
+    margin :0px
  
 }
 
-nav {
+.header {
     height: 200px;
-    color: #333;
+    background-color: #333;
     text-align: center;
     font-size: 146px;
 }
@@ -24,41 +25,21 @@ h2{
 p{
     text-align: center;
 }
-div {
-    width: 230px;
-    height: 230px;
-    border-radius: 115px;
-   /* background-color: #333;*/
-    justify-items: center;
-    text-align: center;
-}
+
 
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 190px;
-    border:2px solid black
+    
 }
 
-/*.contain{
-    
-    
-    height:auto;
-    border: none;
-    height: 200px;
-    color: #333;
-    background-color: #fff;
-    max-width: 1000px;
-    font-size:12px;
-    margin-top : 15px;
-    margin-left: 45%;
-}*/
+
 .contain{
-    display:grid;
-    grid-template-columns: repeat(1,1fr);
+  
     height:auto;
     border: none;
-    
+    text-align: center;
     
 
 
@@ -68,10 +49,12 @@ div {
     grid-column: 3/4
 }
 
-div:hover {
-    background-color: #fff;
+.mini{
+   
+    max-width: auto;
+    max-height: 480px;
+    justify-content: center;
 }
-
 i {
     font-size: 115px;
     margin-top: 45px;
@@ -86,8 +69,9 @@ footer {
     border-radius: 5px 5px;
     max-width: auto;
     height: 194px;
-    color: #333;
+    color: #fff;
     text-align: center;
+    background-color: #333;
 }
 .aside{
     background: linear-gradient(#333,#fff);
@@ -96,4 +80,8 @@ footer {
     border-radius: 5px 3px;
     height: auto;
     margin-bottom: 200px;
+}
+.menu {
+    
+    top: 0px;
 }
