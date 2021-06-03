@@ -25,14 +25,14 @@
 <body <?php body_class(); ?>>
 
 <div class="header">
-    <?php wp_nav_menu( array( 'theme_location' => 'mymenu' ) );?>
+    
     <header class="admin-bar">
         <a href="<?php echo home_url( '/' ); ?>">
         <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
         </a>
         
     </header>
-    
+    <?php wp_nav_menu( array( 'theme_location' => 'mymenu' ) );?>
    
     
 </div>

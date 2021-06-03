@@ -19,8 +19,18 @@ body {
     text-align: center;
     font-size: 146px;
 }
+hr{
+    width: 30%;
+    color: #333 ;
+}
+h3{
+    text-align: center;
+    color :#335;
+    font-size: 40px;
+    
+}
 h2{
-    color:#333
+    color:#fff
 }
 p{
     text-align: center;
@@ -84,14 +94,4 @@ footer {
 .menu {
     display: inline;
     top: 0px;
-}
-hr{
-    width: 30%;
-    color: #333 ;
-}
-h3{
-    text-align: center;
-    color :#335;
-    font-size: 40px;
-    
 }

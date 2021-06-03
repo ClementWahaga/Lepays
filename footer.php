@@ -1,10 +1,10 @@
 <?php wp_footer(); ?>
 <footer>
-    <h2>mon pied de page</h2>
+    <h2>Le pays</h2>
     <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident fuga cumque quos minus eaque in, enim rem consectetur quidem adipisci cupiditate earum nostrum labore ipsam cum, alias non vel blanditiis.
-
+       magazine de l'actualité caledonienne au tour du monde !
     </p>
+    <?php wp_nav_menu( array( 'theme_location' => 'mymenu' ) );?>
 </footer>
 
 </body>

@@ -6,9 +6,9 @@
 
         <?php the_content(); ?>
         <?php the_post_thumbnail();
-    <?php endwhile; endif; ?>
+       
     
-    ?>
+    
 </div>
-             
+         <?php endwhile; endif; ?>     
 <?php get_footer(); ?>
