@@ -50,7 +50,7 @@ p{
 }
 
 .mini{
-   
+    font-family:  'Mate SC', serif;;
     max-width: auto;
     max-height: 480px;
     justify-content: center;
@@ -82,6 +82,16 @@ footer {
     margin-bottom: 200px;
 }
 .menu {
-    
+    display: inline;
     top: 0px;
+}
+hr{
+    width: 30%;
+    color: #333 ;
+}
+h3{
+    text-align: center;
+    color :#335;
+    font-size: 40px;
+    
 }
