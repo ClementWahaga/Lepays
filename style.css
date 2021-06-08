@@ -91,8 +91,20 @@ footer {
     border-radius: 5px 3px;
     height: auto;
     margin-bottom: 200px;
+    list-style-type: none;
 }
 .menu {
-    display: inline;
-    top: 0px;
+    font-family:  'Mate SC', serif;;
+    font-size: 18px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(5,1fr);
+    list-style-type: none;
+    justify-content: right;
+    margin-left: 35%;
+    text-decoration: none;
+    color: #333;
+    text-align: left;
+
+
 }

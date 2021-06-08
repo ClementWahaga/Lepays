@@ -23,21 +23,21 @@
 </head>
 
 <body <?php body_class(); ?>>
-
-<div class="header">
-    
-    <header class="admin-bar">
-        <a href="<?php echo home_url( '/' ); ?>">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
-        </a>
+ 
+        <div class="header">
         
-    </header>
-    <?php wp_nav_menu( array( 'theme_location' => 'mymenu' ) );?>
-   
-    
-</div>
+            <header class="admin-bar">
+                <a href="<?php echo home_url( '/' ); ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
+                </a>
+                
+            </header>
         
+        
+            
+        </div>
+       <div class="menu"><?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) );?></div> 
     
-    <?php wp_body_open(); ?>
+      <?php wp_body_open(); ?>
     
     

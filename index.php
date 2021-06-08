@@ -10,7 +10,7 @@
         <?php the_content(); ?>
         <?php the_post_thumbnail();?>
     <?php endwhile; endif; ?>
-    
+    <?php get_sidebar(); ?>
 </div>
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
