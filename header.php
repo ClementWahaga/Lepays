@@ -23,7 +23,7 @@
 </head>
 
 <body <?php body_class(); ?>>
- 
+        
         <div class="header">
         
             <header class="admin-bar">
@@ -36,8 +36,10 @@
         
             
         </div>
+        
        <div class="menu"><?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) );?></div> 
-    
+      
       <?php wp_body_open(); ?>
+      
     
     

@@ -17,7 +17,7 @@ add_action( 'wp_enqueue_scripts', 'add_theme_scripts','   wp_enqueue_style' );
 function register_my_menu(){
   register_nav_menu( 'main-menu', 'Menu principal' );
 }
-/*add_action( 'after_setup_theme', 'register_my_menu' );*/
+add_action( 'after_setup_theme', 'register_my_menu' );
 if( function_exists('register_sidebar')){
 
   register_sidebar(array(
