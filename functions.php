@@ -2,8 +2,8 @@
 
 // Ajouter la prise en charge des images mises en avant
 add_theme_support( 'post-thumbnails',array(
-    'height' => 480,
-    'width'  => 720,) );
+    'height' => 200,
+    'width'  => 300,) );
     
 
 // Ajouter automatiquement le titre du site dans l'en-tête du site

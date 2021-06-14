@@ -9,7 +9,11 @@ body {
     font-family: 'Pattaya', sans-serif;
     max-width: auto;
     margin: 0px;
+<<<<<<< HEAD
     height: 400px;
+=======
+    height: 2000px;
+>>>>>>> c528d590cc8266f625abeca76a9618a0c14c050a
 }
 
 .header {
@@ -50,12 +54,20 @@ p {
     text-align: center;
 }
 
+<<<<<<< HEAD
 /*.contain :nth-last-of-type(1) {
+=======
+.contain :nth-last-of-type(1) {
+>>>>>>> c528d590cc8266f625abeca76a9618a0c14c050a
     grid-column: 3/4
 }*/
 
 .mini {
     font-family: 'Mate SC', serif;
+<<<<<<< HEAD
+=======
+    ;
+>>>>>>> c528d590cc8266f625abeca76a9618a0c14c050a
     max-width: auto;
     max-height: 480px;
     justify-content: center;
@@ -89,7 +101,11 @@ footer {
     height: auto;
     margin-bottom: 200px;
     list-style-type: none;
+<<<<<<< HEAD
     position: absolute;
+=======
+    position: relative;
+>>>>>>> c528d590cc8266f625abeca76a9618a0c14c050a
 }
 
 .menu {
@@ -105,4 +121,8 @@ footer {
     text-decoration: none;
     color: #333;
     text-align: left;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c528d590cc8266f625abeca76a9618a0c14c050a
