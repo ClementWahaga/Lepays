@@ -4,14 +4,12 @@ Theme URI: https://wordpress.org/themes/lepays
 Author: Wahaga Clement
 */
 
-
 body {
     background-color: #fff;
     font-family: 'Pattaya', sans-serif;
     max-width: auto;
-    margin :0px;
+    margin: 0px;
     height: 2000px;
- 
 }
 
 .header {
@@ -20,52 +18,50 @@ body {
     text-align: center;
     font-size: 146px;
 }
-hr{
+
+hr {
     width: 30%;
-    color: #333 ;
-}
-h3{
-    text-align: center;
-    color :#335;
-    font-size: 40px;
-    
-}
-h2{
-    color:#fff
-}
-p{
-    text-align: center;
+    color: #333;
 }
 
+h3 {
+    text-align: center;
+    color: #335;
+    font-size: 40px;
+}
+
+h2 {
+    color: #fff
+}
+
+p {
+    text-align: center;
+}
 
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 190px;
-    
 }
 
-
-.contain{
-  
-    height:auto;
+.contain {
+    height: auto;
     border: none;
     text-align: center;
-    
-
-
 }
 
-.contain :nth-last-of-type(1){
+.contain :nth-last-of-type(1) {
     grid-column: 3/4
 }
 
-.mini{
-    font-family:  'Mate SC', serif;;
+.mini {
+    font-family: 'Mate SC', serif;
+    ;
     max-width: auto;
     max-height: 480px;
     justify-content: center;
 }
+
 i {
     font-size: 115px;
     margin-top: 45px;
@@ -84,27 +80,29 @@ footer {
     text-align: center;
     background-color: #333;
 }
-.aside{
-    background: linear-gradient(#333,#fff);
-    margin-left:85%;
+
+.aside {
+    background: linear-gradient(#333, #fff);
+    margin-left: 85%;
     border: 1px solid black;
     border-radius: 5px 3px;
     height: auto;
     margin-bottom: 200px;
     list-style-type: none;
+    position: relative;
 }
+
 .menu {
-    font-family:  'Mate SC', serif;;
+    font-family: 'Mate SC', serif;
+    ;
     font-size: 18px;
     display: grid;
     gap: 30px;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     list-style-type: none;
     justify-content: right;
     margin-left: 35%;
     text-decoration: none;
     color: #333;
     text-align: left;
-
-
 }
