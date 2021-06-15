@@ -11,8 +11,8 @@
         
         <hr>
         <h1><?php the_title(); ?></h1>
-        <p><?php the_content(); ?></p>
-        <div><?php the_post_thumbnail();?></div>
+        <div class="art"><?php the_post_thumbnail();?>
+        <?php the_content(); ?></div>
         
     </div>
     
