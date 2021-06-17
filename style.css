@@ -72,6 +72,7 @@ i:hover {
 .art{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    font-family: 'Mate SC', serif;
 }
 footer {
     border: #333 2px solid;
