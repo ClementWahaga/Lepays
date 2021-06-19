@@ -15,9 +15,9 @@
 
 
 **installation en local**
-* *technologie : 
-* - xampp 
-* - wordpress
+* *technologie* : 
+*  xampp 
+*  wordpress
 
 apres avoir telechager xmapp installé le sur votre pc ,il vous permettra emullé un serveur php et ainsi affiché votre site ecrit en php(cms : drupal ,wordpress,joomla)
 ouvrer le panel  d'administration activé le serveur apache et la phpmydamin pour sgbd ,xampp  par defaut est installé sur le disque C: de votre ordinateur vous devrais trouvé un fichier du meme nom sur le disque local 
