@@ -33,9 +33,11 @@ vous arriverez sur la page authentification et installation de wordpress ,rensei
 cliquez ,installation faite  vous serai redigé vers le dashboard de worpress (localhost/monpremiersite/wp-admin/)  
 
 **installation du theme**
+
 cree un dossier nommé le "Le_pays",telechargé les fichier depuis ce depots github ,ajoutez les au dossier precedement cree 
 allez dans le fichier *monpremiersite* ce trouvant dans htdocs dans le dossier xampp dans le disque local ,vous trouverez un fichier nommé *wp-content* ouvré le allez dans le fichier ce nommant *theme* puis ajouté le dossier "Le_pays" puis sauvegardé
 allez sur le dashboard worpress>apparences>theme ,vous trouverais le theme nommé "le_pays" il ne vous restera plus qu'a l activé et le tour est joué
 il ne vous restera qu'a ecrire vous article et ajouté votre contenu (supporte les extension jpeg,png,mp3,mp4,avi,pdf) 
+
 
         
