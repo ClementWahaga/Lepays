@@ -15,7 +15,8 @@
 
 
 **installation de wordpress en local**
- *technologie* : 
+
+*technologie* : 
 *  xampp 
 *  wordpress
 
